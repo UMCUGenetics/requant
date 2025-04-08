@@ -9,7 +9,7 @@ This repo/branch/release contains all scripts as ran for the ReQuant manuscript:
 
 Most of this was developed on a laptop, then relevant scripts were copied to an HPC to apply them to more data. Lots of minor edits happened to make things work for particular datasets hence some scripts occur multiple times in various folders, reflecting what analysis exactly they were involved in.
 
-For general usage, I suggest running `requant.py` and ignoring the rest. After various versions to produce plots I removed all the irrelevant code for the algorithm itself and turned it into a command-line tool. I tested `requant.py` on a few models to ensure it produces the exact same output as the models in the paper, but it can now change the modification and k-mer size using arguments rather than having to change hard-coded values. All the other files are just included for reproducability.
+For general usage, I suggest running `requant.py` and ignoring the rest. After various versions to produce plots I removed all the irrelevant code for the algorithm itself and turned it into a command-line tool. I tested `requant.py` on a few models to ensure it produces the exact same output as the models in the paper, but it can now change the modification and k-mer size using arguments rather than having to change hard-coded values. All the other files are just included for reproducibility.
 
 
 # Usage
@@ -47,7 +47,7 @@ Any .ipynb was ran locally on a laptop to make some plots or get some numbers fr
 The `mark_fasta.py` and `split_fasta.py` were both ran on the same laptop and the fasta files they produced were copied to the HPC for further processing. 
  - The `mark_fasta.py` script marks random occurrences of the motif until the target number of k-mers is covered by at least one context each. 
  - Remora seemed hardcoded to assume all occurrences of a motif are either affected, or all of them are not. Hence the `split_fasta.py` just splits the genome in some sections that cover roughly the target percentage of k-mers with a motif, writes a file with the sequence for each section, and we randomly picked a few of these sections to train and test with.
-For reproducability the actual fasta files used for the ReQuant paper are zipped in `./hpc/refcuts.tar.xz`.
+For reproducibility the actual fasta files used for the ReQuant paper are zipped in `./hpc/refcuts.tar.xz`.
 
 
 The actual version of ReQuant ran to produce (most of) the data is `./hpc/np_requant/requant_impute.py`. This and nearly all other scripts in `./hpc/` and subdirectories of it were ran in the conda environment exported as `./hpc/conda_env_poretools.yml`, except for f5c related steps, which used conda environment `./hpc/conda_env_remora.yml`.
