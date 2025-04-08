@@ -1,0 +1,17 @@
+file_reference_full=/hpc/compgen/projects/asmethylation/asmethylation/analysis/rstraver/remora/asmetha/lambda_tests/lambda_phage.fa
+
+
+
+sample_mod_train=OUD6719
+sample_can_train=VER5940 # Same as test
+
+sample_mod_test=OUD7493
+sample_can_test=VER5940 # Same as train
+
+export path_train_fast5_mod=../../../raw/${sample_mod_train}/fast5/
+export path_train_fast5_can=../../../raw/${sample_can_train}/fast5/
+
+export path_test_fast5_mod=../../../raw/${sample_mod_test}/fast5
+export path_test_fast5_can=../../../raw/${sample_can_test}/fast5
+
+path_output=./output_CpG_meth

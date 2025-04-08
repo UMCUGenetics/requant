@@ -1,0 +1,7 @@
+data/
+old/
+.DS_Store
+*.pyc
+*.model
+test_requant.sh
+linecount.py

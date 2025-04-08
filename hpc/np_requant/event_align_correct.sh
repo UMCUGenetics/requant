@@ -1,0 +1,22 @@
+cd /hpc/compgen/projects/requant/requant/analysis/rstraver/np_requant/event_align
+iput  -f -v -N 4 .//AJG810_fail_c4241646_14.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//canon_AGD599_pass_248f8352_24.fastq /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//glu_AJG810_fail_c4241646_14.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//glu_AJG810_fail_c4241646_18.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//glu_AJG810_fail_c4241646_24.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//glu_AJG810_fail_c4241646_28.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//glu_AJG810_fail_c4241646_34.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//glu_AJG810_fail_c4241646_38.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//glu_AJG810_fail_c4241646_44.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//glu_AJG810_fail_c4241646_48.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//glu_AJG810_fail_c4241646_4.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//glu_AJG810_fail_c4241646_54.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//glu_AJG810_fail_c4241646_58.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//glu_AJG810_fail_c4241646_64.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//glu_AJG810_fail_c4241646_68.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//glu_AJG810_fail_c4241646_74.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//glu_AJG810_fail_c4241646_78.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//glu_AJG810_fail_c4241646_8.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//glu_AJG810_pass_c4241646_1.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//gpc_AID494_fail_6249157e_24.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
+iput  -f -v -N 4 .//gpc_AID494_pass_6249157e_4.fastq.gz /nluu9ot/home/research-deridder/projects/requant/requant/analysis/rstraver/np_requant/event_align/.//
